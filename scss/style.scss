@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "assets/colores";
+@import "assets/sizes";
+@import "components/index";
+@import "components/galeria";
+@import "components/contacto";
+@import "components/nosotros";
+@import "components/servicios";
+@import "components/mediaQueries";

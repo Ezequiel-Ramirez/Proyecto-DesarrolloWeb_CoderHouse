@@ -1,0 +1,47 @@
+@import "../assets/colores";
+@import "../assets/sizes";
+
+main{
+    .container_nosotros {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Imagenes/fondo_nosotros.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+    .container_nosotros{
+        &:before {
+            content: "";
+            background-color: $color-fondo-seccionNosotros;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+        }
+    }
+    .container_nosotros{
+        p{
+            font-size: $size-1-7;
+            color: $color-vinculo;
+            line-height: 2;
+            letter-spacing: 1.2px;
+            text-align: center;
+            font-weight: 600;
+            z-index: 10;
+            padding: 0 15%;
+        }
+    }
+    #tituloNosotros {
+        color: $color-vinculo;
+        z-index: 10;
+    }
+
+}

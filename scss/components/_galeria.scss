@@ -1,0 +1,73 @@
+@import "../assets/colores";
+@import "../assets/sizes";
+
+main{
+    .titulo_principal2 {
+        background-color: $color-fondo-tituloPrincipal;
+    }
+    .container_galeria {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-image: $color-fondo-seccion;
+        div{
+            width: 40%;
+            height: 300px;
+            border: 5px solid black;
+            overflow: hidden;
+            margin-bottom: 10px;
+            position: relative;
+            cursor: pointer;
+            p{
+                width: 100%;
+                height: 15%;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                font-size: $size-2;
+                font-weight: 800;
+                background-color: $color-fondo-textoGaleria;
+                transform: translateX(-100%);
+                transition: all 2s;
+                }
+            &:hover{
+                p{
+                    transform: translateX(0);
+                }
+            }
+        }
+        .div1{
+            background: url(../Imagenes/imagen3.jpg) no-repeat center;
+        }
+        .div2{
+            background: url(../Imagenes/imagen4.jpg) no-repeat center;
+        }
+        .div3{
+            background: url(../Imagenes/imagen5.jpg) no-repeat center;
+        }
+        .div4{
+            background: url(../Imagenes/imagen6.jpg) no-repeat center;
+        }
+        .div5{
+            background: url(../Imagenes/imagen7.jpg) no-repeat center;
+        }
+        .div6{
+            background: url(../Imagenes/imagen8.jpg) no-repeat center;
+        }
+        .div7{
+            background: url(../Imagenes/imagen9.jpg) no-repeat center;
+        }
+        .div8{
+            background: url(../Imagenes/imagen10.jpg) no-repeat center;
+        }
+        .div9{
+            background: url(../Imagenes/imagen11.jpg) no-repeat center;
+        }
+        .div10{
+            background: url(../Imagenes/imagen12.jpg) no-repeat center;
+        }
+    }
+}

@@ -1,0 +1,180 @@
+@import "../assets/colores";
+@import "../assets/sizes";
+
+@media only screen and (max-width: 1318px) {
+    html {
+        font-size: $size-0-8;
+    }
+    .container_redes{
+        a{
+        width: 25px;
+        }
+    }
+    .btn{
+        width: 130px;
+        font-size: $size-2;
+    }
+}
+@media only screen and (max-width: 1024px){
+    html {
+        font-size: $size-0-5;
+    }
+    h1{
+        font-size: $size-5;
+    }
+    .container_redes{
+        a{
+        width: 20px;
+        }
+    }
+    .seccion_dos{
+        .card-title {
+            font-size: $size-3-5;
+        }
+    }
+    .seccion_dos{
+        .card-text {
+        font-size: $size-3;
+        letter-spacing: 2.5px;
+        }
+    }
+    #floatingTextarea {
+        height: 130px;
+        font-size: $size-2;
+    }
+    #floatingName,
+    #floatingApellido,
+    #floatingTelefono,
+    #floatingInput {
+        height: 50px;
+    }
+    label {
+        font-size: $size-2;
+    }
+    .btn {
+        width: 130px;
+        font-size: $size-2;
+    }
+    .container_contacto {
+        padding-top: 5%;
+    }
+    .titulo_principal {
+        font-size: $size-3-5;
+        padding: 25px;
+    }
+    .boton_contacto {
+        a{
+            font-size: $size-2-5;
+            padding: 0;
+        }
+    }
+    .texto_boton {
+        font-size: $size-2;
+    }
+    .container_nosotros {
+        p{
+            font-size: $size-3;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    html {
+        font-size: $size-0-3;
+    }
+    h1 {
+        font-size: $size-5;
+    }
+    .container_logo {
+        width: 14%;
+    }
+    .menu {
+        li{
+            a{
+                font-size: $size-5;
+            }
+        }
+    }
+    .container_redes {
+        a{
+            width: 15px;
+        }
+    }
+    .container_seccion_dos .boton_contacto {
+        width: 100px;
+    }
+    .container_contacto {
+        padding-top: 5%;
+    }
+    #floatingTextarea {
+        height: 100px;
+        font-size: $size-2-5;
+    }
+    #floatingName,
+    #floatingApellido,
+    #floatingTelefono,
+    #floatingInput {
+        height: 60px;
+    }
+    label {
+        font-size: $size-2-5;
+    }
+    .btn {
+        width: 130px;
+        font-size: $size-2-5;
+    }
+    .container_nosotros  {
+        p{
+            font-size: $size-4;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: $size-0-3;
+    }
+    .menu {
+        li{
+            a{
+                font-size: $size-4-5;
+            }
+        }
+    }
+    .container_logo {
+        width: 15%;
+    }
+    .container_redes {
+        a{
+            width: 15px;
+        }
+    }
+    .seccion_dos .container_seccion_dos .boton_contacto {
+        display: none;
+    }
+    .container_galeria {
+        flex-direction: column;
+        max-width: 90%;
+        
+    }
+    
+
+    .container_galeria {
+        .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
+            width: 100%;
+        }
+    }
+
+    textarea {
+        width: 300px;
+    }
+    footer div:nth-child(odd) {
+        display: none;
+    }
+}
+@media (min-width:10px) and (max-width:400px){
+    .container_galeria {
+        .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
+            min-width: 200px;
+        }
+    }
+}

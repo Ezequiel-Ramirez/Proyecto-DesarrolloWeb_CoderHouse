@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Final - Ramirez Ezequiel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- <link rel="stylesheet" href="../css/estilo.css" /> -->
+    <!-- Sass -->
+    <link rel="stylesheet" href="../css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <!-- Encabezado -->
+      <div class="container_logo">
+        <a href="../index.html">
+          <img src="../imagenes/logoFurniture.png" alt="logo" id="logo"
+        /></a>
+      </div>
+
+      <div class="container_menu">
+        <nav>
+          <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container_redes">
+        <a href="https://www.facebook.com/" target="-blank"
+          ><img src="../imagenes/iconoface.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com/" target="-blank"
+          ><img src="../imagenes/iconoinsta.png.png" alt="instagram"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <!-- Icono Whatsapp -->
+      <span class="whatsapp"
+        ><img src="../Imagenes/iconoWhatsapp.svg" alt=""
+      /></span>
+
+      <!-- Contenido Principal -->
+
+      <section class="container-fluid container_contacto">
+        
+        <div class="row justify-content-center align-content-center">
+          <h1 class="titulo_principal2">Furniture Factory</h1>
+          <form method="get" action="#">
+          <div class="col col-10 mx-auto mt-5 d-block">
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control border-dark"
+                id="floatingName"
+                placeholder="Nombre"
+              />
+              <label for="floatingName">Nombre:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control border-dark"
+                id="floatingApellido"
+                placeholder="Apellido"
+              />
+              <label for="floatingApellido">Apellido:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control border-dark"
+                id="floatingTelefono"
+                placeholder="Telefono"
+              />
+              <label for="floatingTelefono">Telefono:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control border-dark"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control border-dark"
+                placeholder="Deje su comentario aqui"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea">En que podemos ayudarte?...</label>
+            </div>
+            <div class="col-3 col-xl-1 col-lg-2  mx-auto">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn bg-light btn-outline-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar
+              </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Enviar Formulario</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Nos contactaremos a la brevedad...gracias.</p>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+              
+            </div>
+          </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="pie">
+      <h3>Donde encontrarnos:</h3>
+      <div>
+        <h5>Dirección:</h5>
+        <p>Santa Ana 3535 - Palermo, Caba.</p>
+      </div>
+      <div>
+        <h5>Email:</h5>
+        <a href="mailto:ezequielram@gmail.com" id="enlaceMail"
+          >info@furniturefactory.com.ar</a
+        >
+      </div>
+
+      <div>
+        <h5>Telefono:</h5>
+        <p>+54 11 5555-5555</p>
+      </div>
+      <div>
+        <h5>Horarios:</h5>
+        <p>Lun-Vier/9:00hs a 18:30hs</p>
+        <p>Sab/9:00hs a 14:00hs</p>
+      </div>
+
+      <div class="container_redes">
+        <a href="https://www.facebook.com/" target="-blank"
+          ><img src="../imagenes/iconoface.png" alt="facebook"
+        /></a>
+        <a href="https://www.instagram.com/" target="-blank"
+          ><img src="../imagenes/iconoinsta.png.png" alt="instagram"
+        /></a>
+      </div>
+    </footer>
+    <!-- javascript de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+      <script>
+      var myModal = document.getElementById('myModal')
+      var myInput = document.getElementById('myInput')
+      
+      myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+      })
+    
+    
+    
+  </script>
+  
+    
+  </body>
+</html>

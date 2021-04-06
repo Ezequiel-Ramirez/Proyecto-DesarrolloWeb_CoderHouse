@@ -1,0 +1,248 @@
+@import "../assets/colores";
+@import "../assets/sizes";
+
+body{
+    width: 100%;
+    font-family: "Big Shoulders Display",cursive;
+    font-weight: 300;
+    /* icono whatsapp */
+    .whatsapp {
+        width: 5%;
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        cursor: pointer;
+        z-index: 90;
+        }
+    .whatsapp img {
+        width: 100%;
+    }
+  /* Encabezado */
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+  /* Logo */
+        .container_logo {
+        width: 10%;
+        align-self: flex-start;
+        display: block;
+        margin-right: auto;
+        padding-left: 5px;
+        }
+        .container_logo img {
+        width: 100%;
+        }
+  /* Iconos redes */
+        .container_redes {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5px;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                width: 30px;
+                margin-bottom: 2px;
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .container_menu {
+        width: 43%;
+            nav{
+            width: 100%;
+            color: $color-vinculo;
+            margin-left: auto;
+            }
+        }
+        .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+            li{
+            display: inline-block;
+            text-align: center;
+            padding: 6px;
+            a{
+                text-decoration: none;
+                color: $color-vinculo;
+                text-align: center;
+                font-size: $size-3;
+                transition: all 1s;
+                    &:hover{
+                    color: $color-vinculo-hover;
+                    text-decoration: underline;
+                    }
+                }
+            }
+        }
+    /* Boton de contacto */
+        
+        
+        }
+    main{
+        .seccion_uno{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../Imagenes/imagen1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            .boton_contacto{
+                margin-top: 20px;
+                background-color: $color-fondo-boton;
+                border: none;
+                padding: 15px;
+                line-height: $size-1-5;
+                display: block;
+                border-radius: 20px;
+                a{
+                    font-size: $size-1-5;
+                    &:hover{
+                        color: $color-vinculo-hover;
+                }
+            }
+            }
+            .texto_boton{
+                color: $color-texto-boton;
+                text-align: center;
+                margin-top: 0;
+                font-size: $size-1-5;
+                font-weight: 500;
+                }
+        }
+        .container_contacto{
+            height: 100vh;
+            background-image: url(../Imagenes/imagen1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .titulo_principal {
+            width: 50%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: $size-2-5;
+            background-color: $color-fondo-seccionPrincipal;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+            color: white;
+            padding: 30px;
+            h1{
+                font-weight: 900;
+                font-size: $size-3-5;
+                padding: 0;
+                margin: 0; 
+            }
+        }
+        h1{
+            text-align: center;
+            font-size: $size-2-5;
+            margin-top: 0;
+        }
+        h3{
+            font-size: $size-2;
+            margin-top: 0;
+        }
+        h4{
+            margin: 20px 0 0;
+        }
+        h5{
+            font-size: $size-1-5;
+        margin: 2px;
+        }
+        .seccion_dos {
+            width: 100%;
+            padding: 10px;
+            background-color: #f3e6e8;
+            background-image: $color-fondo-seccion;
+            .card-title{
+                font-size: $size-2-3;
+            }
+            .card-text {
+                font-size: $size-2;
+                letter-spacing: 3px;
+                padding: 10px;
+            }
+            .card{
+                .card-body{
+                    .btn{
+                        background-color: $color-fondo-boton;
+                        border: none;
+                        color: $color-vinculo;
+                        box-shadow: 10px 10px 10px $color-shadow;
+                        &hover{
+                            color: $color-vinculo-hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#pie {
+    width: 100%;
+    color: $color-texto-footer;
+    background-color: $color-fondo-footer;
+    padding: 10px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        padding: 0 20px;
+    }
+    p{
+        font-weight: 500;
+    }
+    #enlaceMail {
+        text-decoration: none;
+        color: $color-texto-footer
+    }
+    .container_redes {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5px;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                width: 30px;
+                margin-bottom: 2px;
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+            }
+    }
+    .boton_contacto{
+        display: block;
+        margin-top: 20px;
+        background-color: $color-fondo-boton;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        a{
+            font-size: $size-1-5;
+            &:hover{
+                color: $color-vinculo-hover;
+        }
+    }
+    }
+}

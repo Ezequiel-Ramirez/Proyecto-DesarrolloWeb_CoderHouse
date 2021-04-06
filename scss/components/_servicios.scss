@@ -1,0 +1,75 @@
+@import "../assets/colores";
+@import "../assets/sizes";
+
+main{
+    .container_servicio {
+        width: 100%;
+        background-image: url(../Imagenes/fondo_nosotros2.jpg);
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.3fr 1fr 1fr 0.3fr;
+        grid-gap: 20px;
+        p{
+            font-size: $size-1-7;
+        }
+        div{
+            box-shadow: 10px 10px 10px $color-shadow-servicios;
+            border-radius: 10px;
+            padding: 10px;
+            background-image: $color-fondo-seccion;
+            &:first-child, &:last-child{
+                border: none;
+                text-align: center;
+                padding: 20px;
+                align-items: center;
+            }
+            &:last-child{
+                .boton_contacto{
+                    margin: 0 auto;
+                    width: 200px;
+                }
+                
+            }
+        }
+        img{
+            width: 25%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .div1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .div3 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .div4 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .div5 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .div6 {
+        grid-area: 4 / 1 / 5 / 3;
+        .boton_contacto{
+            margin-top: 20px;
+            background-color: $color-fondo-boton;
+            border: none;
+            padding: 10px;
+            display: block;
+            border-radius: 20px;
+            a{
+                font-size: $size-1-5;
+                &:hover{
+                    color: $color-vinculo-hover;
+            }
+        }
+        }
+    }
+    }
+    
+
