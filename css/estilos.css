@@ -377,7 +377,7 @@ main .div6 {
 
 @media only screen and (max-width: 1024px) {
   html {
-    font-size: 0.5rem; }
+    font-size: 0.8rem; }
   h1 {
     font-size: 5rem; }
   .container_redes a {
@@ -413,15 +413,18 @@ main .div6 {
   .container_nosotros p {
     font-size: 3rem; } }
 
-@media only screen and (max-width: 769px) {
+@media (min-width: 650px) and (max-width: 769px) {
   html {
-    font-size: 0.3rem; }
+    width: 100%;
+    font-size: 0.8rem; }
   h1 {
     font-size: 5rem; }
-  .container_logo {
-    width: 14%; }
-  .menu li a {
-    font-size: 5rem; }
+  header .container_logo {
+    width: 30%; }
+  header .container_menu {
+    width: 50%; }
+  header .menu li a {
+    font-size: 6rem; }
   .container_redes a {
     width: 15px; }
   .container_seccion_dos .boton_contacto {
@@ -444,20 +447,21 @@ main .div6 {
   .container_nosotros p {
     font-size: 4rem; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
   html {
-    font-size: 0.3rem; }
+    font-size: 0.6rem; }
   .menu li a {
-    font-size: 4.5rem; }
+    font-size: 2.5rem; }
   .container_logo {
-    width: 15%; }
+    width: 30%; }
+    .container_logo img {
+      width: 100%; }
   .container_redes a {
     width: 15px; }
   .seccion_dos .container_seccion_dos .boton_contacto {
     display: none; }
   .container_galeria {
-    flex-direction: column;
-    max-width: 90%; }
+    flex-direction: column; }
   .container_galeria .div1, .container_galeria .div2, .container_galeria .div3, .container_galeria .div4, .container_galeria .div5, .container_galeria .div6, .container_galeria .div7, .container_galeria .div8, .container_galeria .div9, .container_galeria .div10 {
     width: 100%; }
   textarea {
@@ -465,6 +469,16 @@ main .div6 {
   footer div:nth-child(odd) {
     display: none; } }
 
-@media (min-width: 10px) and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 480px) {
+  html {
+    font-size: 0.5rem; }
+  .container_redes a {
+    width: 10px; }
   .container_galeria .div1, .container_galeria .div2, .container_galeria .div3, .container_galeria .div4, .container_galeria .div5, .container_galeria .div6, .container_galeria .div7, .container_galeria .div8, .container_galeria .div9, .container_galeria .div10 {
     min-width: 200px; } }
+
+@media only screen and (max-width: 399px) {
+  html {
+    font-size: 0.4rem; }
+  .container_menu {
+    min-width: 50%; } }

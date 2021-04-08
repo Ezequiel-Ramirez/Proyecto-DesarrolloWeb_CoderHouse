@@ -17,7 +17,7 @@
 }
 @media only screen and (max-width: 1024px){
     html {
-        font-size: $size-0-5;
+        font-size: $size-0-8;
     }
     h1{
         font-size: $size-5;
@@ -78,23 +78,32 @@
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media  (min-width: 650px) and (max-width: 769px) {
     html {
-        font-size: $size-0-3;
+        width: 100%;
+        font-size: $size-0-8;
     }
     h1 {
         font-size: $size-5;
     }
+    header{
+
+    
     .container_logo {
-        width: 14%;
+        width: 30%;
+    }
+
+    .container_menu{
+       width: 50%;
     }
     .menu {
         li{
             a{
-                font-size: $size-5;
+                font-size: $size-6;
             }
         }
     }
+}
     .container_redes {
         a{
             width: 15px;
@@ -103,6 +112,8 @@
     .container_seccion_dos .boton_contacto {
         width: 100px;
     }
+
+   
     .container_contacto {
         padding-top: 5%;
     }
@@ -129,19 +140,22 @@
         }
     }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
     html {
-        font-size: $size-0-3;
+        font-size: $size-0-6;
     }
     .menu {
         li{
             a{
-                font-size: $size-4-5;
+                font-size: $size-2-5;
             }
         }
     }
     .container_logo {
-        width: 15%;
+        width: 30%;
+        img{
+            width: 100%;
+        }
     }
     .container_redes {
         a{
@@ -153,7 +167,7 @@
     }
     .container_galeria {
         flex-direction: column;
-        max-width: 90%;
+       
         
     }
     
@@ -171,10 +185,26 @@
         display: none;
     }
 }
-@media (min-width:10px) and (max-width:400px){
+@media (min-width:400px) and (max-width:480px){
+    html {
+        font-size: $size-0-5;
+    }
+    .container_redes {
+        a{
+            width: 10px;
+        }
+    }
     .container_galeria {
         .div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10{
             min-width: 200px;
         }
     }
+}
+@media only screen and (max-width:399px){
+    html {
+        font-size: $size-0-4;
+    }
+   .container_menu{
+       min-width: 50%;
+   }
 }
