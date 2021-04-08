@@ -1,5 +1,9 @@
 @import "../assets/colores";
 @import "../assets/sizes";
+@mixin sizesFullContainer($width, $height){
+    width: $width;
+    height: $height;
+}
 
 body{
     width: 100%;
@@ -31,10 +35,12 @@ body{
         display: block;
         margin-right: auto;
         padding-left: 5px;
+        img{
+            width: 100%;
         }
-        .container_logo img {
-        width: 100%;
         }
+        
+        
   /* Iconos redes */
         .container_redes {
         align-items: center;
@@ -90,8 +96,7 @@ body{
         }
     main{
         .seccion_uno{
-            width: 100%;
-            height: 100vh;
+            @include sizesFullContainer(100%, 100vh );
             display: flex;
             justify-content: center;
             align-items: center;
@@ -123,15 +128,14 @@ body{
                 }
         }
         .container_contacto{
-            height: 100vh;
+            @include sizesFullContainer(100%, 100vh );
             background-image: url(../Imagenes/imagen1.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
         .titulo_principal {
-            width: 50%;
-            height: 80%;
+            @include sizesFullContainer(80%, 80% );
             display: flex;
             flex-direction: column;
             justify-content: center;

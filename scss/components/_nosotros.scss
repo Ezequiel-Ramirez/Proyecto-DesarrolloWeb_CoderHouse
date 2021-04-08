@@ -1,10 +1,13 @@
 @import "../assets/colores";
 @import "../assets/sizes";
+@mixin sizesFullContainer($width, $height){
+    width: $width;
+    height: $height;
+}
 
 main{
     .container_nosotros {
-        width: 100%;
-        height: 100vh;
+        @include sizesFullContainer(100%, 100vh);
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -32,8 +32,8 @@ body {
       display: block;
       margin-right: auto;
       padding-left: 5px; }
-    body header .container_logo img {
-      width: 100%; }
+      body header .container_logo img {
+        width: 100%; }
     body header .container_redes {
       align-items: center;
       display: flex;
@@ -102,13 +102,14 @@ body {
       font-size: 1.5rem;
       font-weight: 500; }
   body main .container_contacto {
+    width: 100%;
     height: 100vh;
     background-image: url(../Imagenes/imagen1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   body main .titulo_principal {
-    width: 50%;
+    width: 80%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -380,6 +381,8 @@ main .div6 {
     font-size: 0.8rem; }
   h1 {
     font-size: 5rem; }
+  body header .container_logo {
+    width: 20%; }
   .container_redes a {
     width: 20px; }
   .seccion_dos .card-title {
@@ -419,11 +422,11 @@ main .div6 {
     font-size: 0.8rem; }
   h1 {
     font-size: 5rem; }
-  header .container_logo {
-    width: 30%; }
-  header .container_menu {
+  body header .container_logo {
+    width: 20%; }
+  body header .container_menu {
     width: 50%; }
-  header .menu li a {
+  body .menu li a {
     font-size: 6rem; }
   .container_redes a {
     width: 15px; }
@@ -452,10 +455,12 @@ main .div6 {
     font-size: 0.6rem; }
   .menu li a {
     font-size: 2.5rem; }
-  .container_logo {
-    width: 30%; }
-    .container_logo img {
+  body header .container_logo {
+    width: 20%; }
+    body header .container_logo img {
       width: 100%; }
+  body header .container_redes a {
+    width: 20px; }
   .container_redes a {
     width: 15px; }
   .seccion_dos .container_seccion_dos .boton_contacto {
@@ -472,13 +477,20 @@ main .div6 {
 @media (min-width: 400px) and (max-width: 480px) {
   html {
     font-size: 0.5rem; }
-  .container_redes a {
-    width: 10px; }
+  body header .container_logo {
+    min-width: 15%; }
+  body header .container_redes a {
+    width: 15px; }
   .container_galeria .div1, .container_galeria .div2, .container_galeria .div3, .container_galeria .div4, .container_galeria .div5, .container_galeria .div6, .container_galeria .div7, .container_galeria .div8, .container_galeria .div9, .container_galeria .div10 {
     min-width: 200px; } }
 
 @media only screen and (max-width: 399px) {
   html {
     font-size: 0.4rem; }
+  body header .container_redes a {
+    width: 15px; }
+  body main .titulo_principal {
+    min-width: 80%;
+    padding: 5px; }
   .container_menu {
     min-width: 50%; } }
