@@ -117,11 +117,7 @@
     }
     
 }
-    .container_redes {
-        a{
-            width: 15px;
-        }
-    }
+   
     .container_seccion_dos .boton_contacto {
         width: 100px;
     }
@@ -166,25 +162,23 @@
         }
     }
     body{
-        header{
+        header, #pie{
         .container_logo {
             width: 20%;
-            img{
-                width: 100%;
-            }
+                img{
+                    width: 100%;
+                }
         }
         .container_redes {
             a{
                 width: 20px;
             }
         }
+        
+        
     }
     }
-    .container_redes {
-        a{
-            width: 15px;
-        }
-    }
+    
     .seccion_dos .container_seccion_dos .boton_contacto {
         display: none;
     }
@@ -213,14 +207,13 @@
         font-size: $size-0-5;
     }
     body{
-        header{
+        header, #pie{
             .container_logo{
-               min-width: 15%;
-
+                min-width: 15%;
             }
             .container_redes {
                 a{
-                    width: 15px;
+                    width: 20px;
                 }
             }
         }
@@ -237,10 +230,10 @@
         font-size: $size-0-4;
     }
     body {
-        header{
+        header, #pie{
             .container_redes {
                 a{
-                    width: 15px;
+                    width: 20px;
                 }
             }
         }
@@ -250,8 +243,20 @@
             padding: 5px;
                 }
         }
+        .whatsapp{
+            width: 6%;
+        }
     }    
-   .container_menu{
-       min-width: 50%;
-   }
+    .container_menu{
+        min-width: 50%;
+    }
+    main{
+        .container_nosotros  {
+        p{
+            font-size: $size-2;
+            line-height: 2.5;
+        }
+        }
+}
+
 }

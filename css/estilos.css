@@ -92,7 +92,8 @@ body {
       display: block;
       border-radius: 20px; }
       body main .seccion_uno .boton_contacto a {
-        font-size: 1.5rem; }
+        font-size: 1.5rem;
+        color: black; }
         body main .seccion_uno .boton_contacto a:hover {
           color: #991a1a; }
     body main .seccion_uno .texto_boton {
@@ -196,7 +197,8 @@ body {
     padding: 10px;
     border-radius: 20px; }
     #pie .boton_contacto a {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      color: black; }
       #pie .boton_contacto a:hover {
         color: #991a1a; }
 
@@ -428,8 +430,6 @@ main .div6 {
     width: 50%; }
   body .menu li a {
     font-size: 6rem; }
-  .container_redes a {
-    width: 15px; }
   .container_seccion_dos .boton_contacto {
     width: 100px; }
   .container_contacto {
@@ -455,14 +455,12 @@ main .div6 {
     font-size: 0.6rem; }
   .menu li a {
     font-size: 2.5rem; }
-  body header .container_logo {
+  body header .container_logo, body #pie .container_logo {
     width: 20%; }
-    body header .container_logo img {
+    body header .container_logo img, body #pie .container_logo img {
       width: 100%; }
-  body header .container_redes a {
+  body header .container_redes a, body #pie .container_redes a {
     width: 20px; }
-  .container_redes a {
-    width: 15px; }
   .seccion_dos .container_seccion_dos .boton_contacto {
     display: none; }
   .container_galeria {
@@ -477,20 +475,25 @@ main .div6 {
 @media (min-width: 400px) and (max-width: 480px) {
   html {
     font-size: 0.5rem; }
-  body header .container_logo {
+  body header .container_logo, body #pie .container_logo {
     min-width: 15%; }
-  body header .container_redes a {
-    width: 15px; }
+  body header .container_redes a, body #pie .container_redes a {
+    width: 20px; }
   .container_galeria .div1, .container_galeria .div2, .container_galeria .div3, .container_galeria .div4, .container_galeria .div5, .container_galeria .div6, .container_galeria .div7, .container_galeria .div8, .container_galeria .div9, .container_galeria .div10 {
     min-width: 200px; } }
 
 @media only screen and (max-width: 399px) {
   html {
     font-size: 0.4rem; }
-  body header .container_redes a {
-    width: 15px; }
+  body header .container_redes a, body #pie .container_redes a {
+    width: 20px; }
   body main .titulo_principal {
     min-width: 80%;
     padding: 5px; }
+  body .whatsapp {
+    width: 6%; }
   .container_menu {
-    min-width: 50%; } }
+    min-width: 50%; }
+  main .container_nosotros p {
+    font-size: 2rem;
+    line-height: 2.5; } }

@@ -114,6 +114,7 @@ body{
                 border-radius: 20px;
                 a{
                     font-size: $size-1-5;
+                    color: $color-vinculo;
                     &:hover{
                         color: $color-vinculo-hover;
                 }
@@ -208,10 +209,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    div{
+        div{
         padding: 0 20px;
-    }
-    p{
+        }
+        p{
         font-weight: 500;
     }
     #enlaceMail {
@@ -244,6 +245,7 @@ body{
         border-radius: 20px;
         a{
             font-size: $size-1-5;
+            color: $color-vinculo;
             &:hover{
                 color: $color-vinculo-hover;
         }
