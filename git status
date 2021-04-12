@@ -1,0 +1,95 @@
+[33mcommit b0088dc0a3560a309af7a776db70776ab19af37b[m[33m ([m[1;36mHEAD -> [m[1;32multimo_ajuste[m[33m)[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Mon Apr 12 20:17:08 2021 -0300
+
+    ajuste de tiempo en animacion de galería
+
+[33mcommit ea1a4d4f7829417be917595ccb217ddafc23031f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Fri Apr 9 18:00:29 2021 -0300
+
+    update readme
+
+[33mcommit 53ae3fb6832d5fab10cb1bd28595e44fa495cda9[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Fri Apr 9 17:56:01 2021 -0300
+
+    Modifique iconos social y algunas otras cosas
+
+[33mcommit 8bbd315c243361e421fba7c09cd1cf2f855bab9b[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 19:29:48 2021 -0300
+
+    modifique logo y redes en mediaqueries
+
+[33mcommit 5988fea2aa056735950106153133e44a4927d67b[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 18:27:41 2021 -0300
+
+    actualizacion de index}
+
+[33mcommit 95e9d21f18a3073d3779f3ca307841fbed7660c3[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 15:59:37 2021 -0300
+
+    cambio 2 media querie
+
+[33mcommit 2a5990dbfa928d9141d5707c707680c2b24dcab9[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 15:54:10 2021 -0300
+
+    cambios media
+
+[33mcommit 58a519491c155d1db5b1cb0f2fe1895a34016a7d[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 15:26:30 2021 -0300
+
+    modifique inicial de carpeta Imagenes y enlaces de la misma
+
+[33mcommit 7e62dd662e9d5d7eee50d34fb70086aa6f28da7d[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Thu Apr 8 15:15:20 2021 -0300
+
+    actualizacion de cambios con sass
+
+[33mcommit 8183486e82958df31df8483d8e1114082face414[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Wed Apr 7 11:39:40 2021 -0300
+
+    modifique inicial de carpeta imagenes
+
+[33mcommit c83c1902c2404e3ee11d70b0efd7e52b5b3d70c1[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Wed Apr 7 11:01:40 2021 -0300
+
+    Borre carpeta imagenes con minuscula
+
+[33mcommit 6034b14a561a18df1664cabbe029600ec702be61[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Wed Apr 7 11:01:02 2021 -0300
+
+    Volvi a agregar carpeta Imagenes con mayuscula
+
+[33mcommit d23fe8c4f00bfd0c82642c277050ea858afe0c0e[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Wed Apr 7 10:50:29 2021 -0300
+
+    Borre carpeta Imagenes
+
+[33mcommit be7f56b91efb6c582dd510d53960e26cc694d0d9[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Wed Apr 7 10:48:55 2021 -0300
+
+    Cambio de carpeta imagenes
+
+[33mcommit 7754c5c9ddce02f313c1a04254bdbadca19bb1cd[m
+Author: Ezequiel-Ramirez <78183135+Ezequiel-Ramirez@users.noreply.github.com>
+Date:   Tue Apr 6 14:51:35 2021 -0300
+
+    Creacion de Readme
+
+[33mcommit 0eab684b851765f9798dd2f5813e06e9e1f39c63[m
+Author: Ezequiel Ramirez <ezequielram@gmail.com>
+Date:   Tue Apr 6 14:28:36 2021 -0300
+
+    Subida de archivos al Git y creacion de gitignore
