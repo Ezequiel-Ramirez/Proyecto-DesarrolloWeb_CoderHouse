@@ -200,7 +200,12 @@ body{
         }
     }
 }
-#pie {
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+#pie, #copyright {
     width: 100%;
     color: $color-texto-footer;
     background-color: $color-fondo-footer;
@@ -251,4 +256,5 @@ body{
         }
     }
     }
+}
 }

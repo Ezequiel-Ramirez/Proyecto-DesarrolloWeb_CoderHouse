@@ -159,48 +159,52 @@ body {
       body main .seccion_dos .card .card-body .btnhover {
         color: #991a1a; }
 
-#pie {
+footer {
   width: 100%;
-  color: white;
-  background-color: #232323;
-  padding: 10px;
-  clear: both;
   display: flex;
-  justify-content: center;
-  align-items: center; }
-  #pie div {
-    padding: 0 20px; }
-  #pie p {
-    font-weight: 500; }
-  #pie #enlaceMail {
-    text-decoration: none;
-    color: white; }
-  #pie .container_redes {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 5px; }
-    #pie .container_redes a {
-      display: inline-block;
-      text-decoration: none;
-      width: 30px;
-      margin-bottom: 2px; }
-      #pie .container_redes a img {
-        width: 100%;
-        border-radius: 5px; }
-  #pie .boton_contacto {
-    display: block;
-    margin-top: 20px;
-    background-color: #c2c5c2;
-    border: none;
+  flex-direction: column; }
+  footer #pie, footer #copyright {
+    width: 100%;
+    color: white;
+    background-color: #232323;
     padding: 10px;
-    border-radius: 20px; }
-    #pie .boton_contacto a {
-      font-size: 1.5rem;
-      color: black; }
-      #pie .boton_contacto a:hover {
-        color: #991a1a; }
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer #pie div, footer #copyright div {
+      padding: 0 20px; }
+    footer #pie p, footer #copyright p {
+      font-weight: 500; }
+    footer #pie #enlaceMail, footer #copyright #enlaceMail {
+      text-decoration: none;
+      color: white; }
+    footer #pie .container_redes, footer #copyright .container_redes {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 5px; }
+      footer #pie .container_redes a, footer #copyright .container_redes a {
+        display: inline-block;
+        text-decoration: none;
+        width: 30px;
+        margin-bottom: 2px; }
+        footer #pie .container_redes a img, footer #copyright .container_redes a img {
+          width: 100%;
+          border-radius: 5px; }
+    footer #pie .boton_contacto, footer #copyright .boton_contacto {
+      display: block;
+      margin-top: 20px;
+      background-color: #c2c5c2;
+      border: none;
+      padding: 10px;
+      border-radius: 20px; }
+      footer #pie .boton_contacto a, footer #copyright .boton_contacto a {
+        font-size: 1.5rem;
+        color: black; }
+        footer #pie .boton_contacto a:hover, footer #copyright .boton_contacto a:hover {
+          color: #991a1a; }
 
 main .titulo_principal2 {
   background-color: #d5d0e5; }
